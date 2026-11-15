@@ -1,0 +1,11 @@
+[gd_scene format=3 uid="uid://dl16ogu1g6ktv"]
+
+[ext_resource type="Script" uid="uid://clbxnueymcl07" path="res://area_2d.gd" id="1_njnk4"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_ox2su"]
+
+[node name="Teleport" type="Area2D" unique_id=2021778541]
+script = ExtResource("1_njnk4")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=680806380]
+shape = SubResource("CircleShape2D_ox2su")
